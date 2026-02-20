@@ -217,9 +217,9 @@ def main():
     print("=" * 50)
     
     web.run_app(
-        app, # Usa l'istanza aiohttp originale per il runner integrato
+        app,
         host='0.0.0.0',
-        port=PORT
+        port=int(os.environ.get('PORT', 8000))
     )
 
 if __name__ == '__main__':
