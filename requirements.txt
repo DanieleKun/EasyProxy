@@ -7,4 +7,4 @@ beautifulsoup4
 lxml
 python-socks
 pycryptodome
-pydash2hls
+pydash2hls 
